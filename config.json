@@ -29,6 +29,7 @@
   "widgets": [
     "dnd",
     "buttons-grid",
+    "mpris",
     "volume",
     "backlight",
     "title",
@@ -75,7 +76,8 @@
           "label": "󰂯",
           "command": "blueman-manager"
         }
-      ]
+      ],
+      "buttons-per-row": 5
     }
   }
 }

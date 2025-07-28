@@ -29,7 +29,7 @@
 }
 
 .notification-group {
-  background: @noti-bg;
+  background: @transparent;
 }
 
 .notification {
@@ -211,7 +211,7 @@
 
 .widget-title {
   color: @text-color;
-  background: @noti-bg-alt;
+  background: transparent;
   padding: 3px 6px;
   margin: 5px;
   font-size: 1rem;
@@ -273,7 +273,7 @@
 
 .widget-mpris {
   color: @text-color;
-  background: @noti-bg;
+  background: transparent;
   padding: 3px 6px;
   margin: 5px;
   border-radius: 10px;
@@ -331,7 +331,7 @@
 
 .widget-volume {
   background: @noti-bg-alt;
-  padding: 2px;
+  padding: 2px 2px 2px 16px;
   margin: 10px 10px 5px 10px;
   border-radius: 10px;
   font-size: x-large;
