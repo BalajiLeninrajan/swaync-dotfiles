@@ -34,6 +34,7 @@
 
 .notification {
   border-radius: 10px;
+  background: @noti-bg;
 }
 
 .notification-content {
